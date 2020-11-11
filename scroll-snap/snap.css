@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.slides {
+  overflow: scroll;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+.slide {
+  width: 100vw;
+  min-height: 100vh;
+  scroll-snap-align: start;
+}
+
+/* .slide:nth-child(1) {
+  background-color: aqua;
+}
+
+.slide:nth-child(2) {
+  background-color: red;
+}
+
+.slide:nth-child(3) {
+  background-color: orange;
+}
+
+.slide:nth-child(4) {
+  background-color: green;
+}
+
+.slide:nth-child(5) {
+  background-color: fuchsia;
+} */
