@@ -15,9 +15,13 @@ body {
 .clickbottle {
   font-size: 26px;
   max-width: 600px;
-  display: block;
+}
+
+.clickbottleclass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  margin-left: 410px;
 }
 
 .modal {
