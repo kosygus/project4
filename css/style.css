@@ -60,7 +60,7 @@ body {
 
 .slide {
   width: 800px;
-  min-height: 400 px;
+  min-height: 400px;
   scroll-snap-align: start;
 }
 
@@ -68,4 +68,33 @@ body {
   display: flex;
   justify-content: center;
   justify-content: space-around;
+  margin-top: 400px;
+}
+
+.arrow {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.chart {
+  display: flex;
+  justify-content: center;
+}
+
+.trigger {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: black;
+
+  padding: 20px;
+  font-size: 20px;
+  background-color: blanchedalmond;
+  block-size: 80px;
+  height: auto;
+}
+
+.imgbottle {
+  display: block;
+  height: 600px;
+  padding: 20px 0px;
 }
