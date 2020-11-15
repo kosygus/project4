@@ -83,14 +83,16 @@ body {
 .chart {
   display: flex;
   justify-content: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .trigger {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   color: black;
   word-spacing: 2px;
   padding: 20px;
-  font-size: 20px;
+  font-size: 25px;
   background-color: blanchedalmond;
   block-size: 80px;
   height: auto;
@@ -105,8 +107,8 @@ body {
 .logo {
   display: flex;
   justify-content: left;
-  margin-left: 10px;
   margin-top: 10px;
+  margin-left: 10px;
 }
 
 .gif {
@@ -131,6 +133,12 @@ body {
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.16);
   border-radius: 5px;
   overflow: hidden;
-  margin-bottom: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
+}
+
+.sources {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
