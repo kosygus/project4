@@ -142,3 +142,14 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+@media (min-width: 768px) {
+  main > article > section > header > p {
+    max-width: 50%;
+  }
+  main > article > section {
+    padding: 65px 40px;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+}
